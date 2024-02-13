@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ quieres salir conmigo el 14 chulita ♥</title>
+  <style>
+    .body {
+      background-color: rgb(178, 55, 255);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 80%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ quieres salir conmigo el 14 chulita ? ♥</h1>
+  <img src="https://scontent.fmex11-1.fna.fbcdn.net/v/t1.15752-9/421988595_1082622659640743_4290464860906930145_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=bCWSR4_cBoIAX--YZox&_nc_ht=scontent.fmex11-1.fna&oh=03_AdSR-RHxS8mF34g_ZQZd9QnAm5B5AMBdhMPGUwhI1snWzg&oe=65F32945" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">yeah si corazon</button>
+  <button id="no"> nel pinche verguero no quiero</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞yeah te quiero corazon 💞');
+      alert('😱mañana te veo chulita😱');
+      location.href = 'https://www.youtube.com/watch?v=j4md_q8VO_8';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
